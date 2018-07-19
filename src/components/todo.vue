@@ -60,11 +60,14 @@ export default {
 
 
 <style scoped>
+*{
+    box-sizing: border-box;
+}
 .container {
     position: relative;
     width: 30%;
     padding: 10px;
-    /* background: grey; */
+    background: grey;
     margin: 0 auto;
     border: 1px solid grey;
 }
